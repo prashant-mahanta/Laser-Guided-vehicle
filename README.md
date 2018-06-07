@@ -26,7 +26,7 @@ vehicle in a particular direction. It avoids collision through an ultrasonic sen
 
 # Working
 
-# Stage-1
+### Stage-1
 
 The smartphone is kept over the vehicle which sends the live video feed of the laser to a laptop. This is done using a wifi hotspot.
 
@@ -36,17 +36,17 @@ We first take a frame from the video, convert it to HSV format and then using ap
 
 and then using moments we can find the center and radius.
 
-# Stage-2
+### Stage-2
 
 Next stage involves identifying the position of the laser pointer on the screen of the smartphone. A smartphone screen can be divided 
 
 into 4 regions- left,right, forward and backward as shown below.
 
-//Add image here
+![screen](https://user-images.githubusercontent.com/28951222/41101673-6b47bff2-6a82-11e8-8208-06690da2667d.png)
 
 If the laser pointer lies in the forward region we can send a command to the vehicle to move forward and likewise for other directions as well
 
-# Stage-3
+### Stage-3
 
 In this stage we send the command to vehicle. After deciding in which direction we need to move the vehicle we send chracters
 
