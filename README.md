@@ -59,3 +59,7 @@ module needs to be configured properly using AT commands. Make one of the module
 Now data can be received at the vehicle end. For moving the vehicle forward all the wheels should move clockwise and just the opposite 
 
 for backward. For moving left, just move the right side wheels clockwise and likewise for right. The arduino code carRobot.ino performs this task
+
+# Additional functions:
+
+The vehicle stops on 's' command and in case laser in not in the range of smartphone camera, the vehicle moves anti clockwise to find the laser. The vehicle also stops in case it finds an obstacle infront of it.
